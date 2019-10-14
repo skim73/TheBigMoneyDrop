@@ -4,7 +4,7 @@ A game written for Java console emulating the British game show "The £100K Drop
 ###---INSTRUCTIONS---------------------------------------------------------------------------------
 1) Make sure all of these files are in the same directory when downloading.
 2) Open this project in a Java IDE OR use command prompt to run this project.
-3) Alternatively, run the project here: https://repl.it/@skim3213/TheBigMoneyDrop
+3) Alternatively, run the project here: https://thebigmoneydrop.skim3213.repl.run/
 
 ###---RUNNING-ON-COMMAND-PROMPT--------------------------------------------------------------------
 1) Make sure you installed AdoptOpenJDK13: https://adoptopenjdk.net/?variant=openjdk13&jvmVariant=hotspot
