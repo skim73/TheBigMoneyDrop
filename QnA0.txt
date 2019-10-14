@@ -1,0 +1,89 @@
+INSTRUMENTS
+CALENDAR
+(A) Alto saxophone  [
+(B) Viola           [
+(C) Basset horn     [
+(D) Trombone        [
+Which instrument primarily uses the alto clef as opposed to the treble or bass clef?
+A 0 D 2000 C 1600
+(A) Saturday        [
+(B) Sunday          [
+(C) Monday          [
+(D) Tuesday         [
+On which day must a month with Friday the 13th begin?
+A 0 C 0 D 1600
+NUMBERS
+LOGOS
+(A) 71  [
+(B) 83  [
+(C) 91  [
+(D) 103 [
+Which number is not prime?
+A 0 B 2000 D 1600
+(A) Red     [
+(B) Yellow  [
+(C) Green   [
+(D) Blue    [
+What color is the "e" on Google's logo?
+C 1250 D 1250 B 1600
+GAMES
+STARBUCKS
+(A) South Korea     [
+(B) United States   [
+(C) Taiwan          [
+(D) Japan           [
+Of the 9.5 million copies of Blizzard's 1998 game StarCraft sold worldwide, 4.5 million were sold to which country?
+D 1250 C 2000 B 1600
+(A) Mocha                   [
+(B) Strawberry              [
+(C) Java Chip               [
+(D) Matcha Green Tea Creme  [
+Which of these Starbucks Frappuccinos has the highest amount of calories?
+B 1250 D 1700 A 1600
+CITIES
+CHILDREN'S TV SHOWS
+(A) Atlanta, GA     [
+(B) Birmingham, AL  [
+(C) Cleveland, OH   [
+According to Forbes, which of these cities has the highest violent crime rate per 100,000 residents?
+A 2800 C 1600
+(A) Barney and Friends  [
+(B) Caillou             [
+(C) Go, Diego! Go!      [
+As of 2019, which of these children's TV shows has the lowest average user rating on the IMDb website?
+B 2800 C 1600
+RECIPES
+COSTUMES
+(A) French Toast            [
+(B) Oven-Baked Salmon       [
+(C) Garlic Roasted Potatoes [
+In 2016 what was the most popular recipe on FoodNetwork.com?
+B 3600 A 1600
+(A) Dinosaur    [
+(B) Descendants [
+(C) Witch       [
+According to Google Frightgeist, what is the 2nd most searched Halloween costume in 2019 behind IT?
+A 0 B 1600
+EDUCATION
+ALPHABET
+(A) English Literature and Composition  [
+(B) Chemistry                           [
+(C) Physics 1: Algebra-Based            [
+In 2017 which Advanced Placement exam had the lowest percentage of test-takers receive the superior score of 5?
+A 4000 B 1600
+(A) T   [
+(B) A   [
+(C) O   [
+What is the most common first letter of a word in the English language?
+C 2500 B 1600
+MEASUREMENTS
+HOLIDAYS
+(A) 144 yards, 53 feet, and 291 inches                  [
+(B) 15 kilometers, 300 meters, and 5,230 centimeters    [
+Which is longer?
+B 1600
+(A) True    [
+(B) False   [
+True or false? In 2019, Christmas and Hanukkah will overlap.
+B 1600
+
