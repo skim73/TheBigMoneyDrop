@@ -24,7 +24,7 @@ C 0 D 2000 A 1600
 (B) Rooster     [
 (C) Goat        [
 (D) Dragon      [
-The Beijing 2022 Winter Olympics will be held during the Year of which zodiac?
+The Beijing 2022 Winter Olympics will be held during the Year of which Chinese zodiac?
 B 0 C 0 D 1600
 PLANETS
 CURRENCIES
