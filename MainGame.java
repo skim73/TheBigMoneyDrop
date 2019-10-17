@@ -28,7 +28,7 @@ class MainGame extends Thread {
         proceed(in);
         System.out.println("\nYou answer question by wagering ALL your money on the answer choices." +
             "\nAny money wagered on the incorrect answers will drop to the abyss, never to return." +
-            "\nIn every question, YOU MUST LEAVE ONE ANSWER EMPTY, $0 WAGERED.");
+            "\nIn every question, YOU MUST LEAVE ONE ANSWER WAGERED $0.");
         proceed(in);
         System.out.println("\nAre you ready? Then let's play the Big Money Drop!");
         proceed(in);
@@ -86,8 +86,8 @@ class MainGame extends Thread {
             int[] wagers = new int[numAnswers(questionNum)];
             Wagering wagering = new Wagering(money, answers, question, wagers, in);
             Countdown countdown = new Countdown(wagering);
-            System.out.println("\nYou have 1 minute to wager your money on the answers as soon" +
-                " as you proceed.\n(***Any money not wagered will be confiscated***)");
+            System.out.println("\nYou have 1 minute to wager ALL your money on the answers as soon" +
+                " as you proceed.\n\t(***Any money not wagered will be confiscated***)");
             delay(5000);
 
             countdown.start();
