@@ -1,5 +1,6 @@
 # TheBigMoneyDrop
-A game written for Java console emulating the British game show "The £100K Drop"
+A game written for Java console emulating the British game show "The £100K Drop" (originally "The Million Pound Drop")
+Sample game: https://www.youtube.com/watch?v=hNPrXquS2vw (I recommend watching at least one question or two to understand the game.)
 
 ###---INSTRUCTIONS---------------------------------------------------------------------------------
 1) Make sure all of these files are in the same directory when downloading.
