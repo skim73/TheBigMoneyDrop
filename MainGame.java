@@ -119,7 +119,7 @@ class MainGame extends Thread {
                 delay(qna.nextLong());
             }
             qna.nextLine();
-            if (c == 1) {
+            if (c <= 1) {
                 for (int i = 0; i < numAnswers(questionNum) + 2; i++) {
                     qna.nextLine();
                 }
