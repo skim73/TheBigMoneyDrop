@@ -1,0 +1,88 @@
+DISNEY
+U.S. STATES
+(A) Hamlet          [
+(B) Julius Caesar   [
+(C) King Lear       [
+(D) Macbeth         [
+Disney's "The Lion King" was inspired by which of these classic plays?
+B 0 C 0 D 1600
+(A) Iowa        [
+(B) New York    [
+(C) Utah        [
+(D) Wisconsin   [
+According to the 2010 census, whose capital is not the most populous city in the state?
+D 1000 A 1000 C 1600
+MARRIAGE
+ZODIAC
+(A) Denmark     [
+(B) Netherlands [
+(C) Spain       [
+(D) Singapore   [
+Which country was the first to legalize same-sex marriage in 2001?
+C 0 D 2000 A 1600
+(A) Tiger       [
+(B) Rooster     [
+(C) Goat        [
+(D) Dragon      [
+The Beijing 2022 Winter Olympics will be held during the Year of which zodiac?
+B 0 C 0 D 1600
+PLANETS
+CURRENCIES
+(A) Jupiter [
+(B) Saturn  [
+(C) Uranus  [
+(D) Neptune [
+Which planet has a density so low that it could theoretically float on water?
+D 1000 A 1000 C 1600
+(A) 7,000 Indian Rupees     [
+(B) 233 Canadian Dollars    [
+(C) 199 British Pounds      [
+(D) 64,000 South Korean Won [
+As of October 2019, which is more expensive?
+A 0 B 2400 D 1600
+GLOBAL EVENTS
+COLORS
+(A) United Kingdom  [
+(B) Mexico          [
+(C) Uruguay         [
+Which country hosted the first FIFA World Cup in 1930?
+B 3600 A 1600
+(A) Red     [
+(B) Green   [
+(C) Yellow  [
+Which is a secondary color in the additive color model, which is based on the colors of light?
+A 3600 B 1600
+CHILDREN'S LITERATURE
+PASSWORDS
+(A) Green Eggs and Ham                      [
+(B) Fox in Socks                            [
+(C) One Fish, Two Fish, Red Fish, Blue Fish [
+Which of these Dr. Seuss's books contains just 50 distinct words?
+C 1600 B 1600
+(A) password    [
+(B) 123456      [
+(C) qwerty      [
+According to SplashData, what is the most common password used in 2018?
+A 3200 C 1600
+ALPHABET
+ANIMALS
+(A) Russian [
+(B) English [
+(C) Italian [
+Which language has the least amount of letters in its alphabet?
+A 4200 B 1600
+(A) zerda   [
+(B) latrans [
+(C) aureus  [
+An animal with which scientific species name is in the different genus from those with the other two species names?
+C 4200 B 1600
+BEVERAGES
+LANDMARKS
+(A) Powerade Grape          [
+(B) Gatorade Fruit Punch    [
+Which drink has a higher pH?
+A 1600
+(A) Italy   [
+(B) Greece  [
+Which of these countries is home to more UNESCO World Heritage Sites?
+B 1600
