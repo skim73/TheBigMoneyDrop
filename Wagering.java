@@ -21,7 +21,7 @@ class Wagering extends Thread {
     @Override
     public void run() {
         while (!isInterrupted()) {
-            System.out.println("\n------ " + PrintMoney.printMoney(money * 10000) + " LEFT TO WAGER ------");
+            System.out.println("\n\n\n------ " + PrintMoney.printMoney(money * 10000) + " LEFT TO WAGER ------");
             System.out.println(question);
             for (int i = 0; i < answers.size(); i++) {
                 System.out.printf(answers.get(i) + "$%7s]\n",
@@ -37,7 +37,7 @@ class Wagering extends Thread {
         try {
             switch (in.next()) {
                 case "A":
-                    System.out.print("Set your wager on (A): $10,000 X ");
+                    System.out.print("SET YOUR NEW WAGER ON (A): $10,000 X ");
                     try {
                         checkWager(in.nextInt(), 0);
                     } catch (InputMismatchException e) {
@@ -45,7 +45,7 @@ class Wagering extends Thread {
                     }
                     break;
                 case "B":
-                    System.out.print("Set your wager on (B): $10,000 X ");
+                    System.out.print("SET YOUR NEW WAGER ON (B): $10,000 X ");
                     try {
                         checkWager(in.nextInt(), 1);
                     } catch (InputMismatchException e) {
@@ -54,7 +54,7 @@ class Wagering extends Thread {
                     break;
                 case "C":
                     if (answers.size() >= 3) {
-                        System.out.print("Set your wager on (C): $10,000 X ");
+                        System.out.print("SET YOUR NEW WAGER ON (C): $10,000 X ");
                         try {
                             checkWager(in.nextInt(), 2);
                         } catch (InputMismatchException e) {
@@ -64,7 +64,7 @@ class Wagering extends Thread {
                     break;
                 case "D":
                     if (answers.size() == 4) {
-                        System.out.print("Set your wager on (D): $10,000 X ");
+                        System.out.print("SET YOUR NEW WAGER ON (D): $10,000 X ");
                         try {
                             checkWager(in.nextInt(), 3);
                         } catch (InputMismatchException e) {
@@ -98,7 +98,8 @@ class Wagering extends Thread {
             return;
         }
         if (wager - wagers[pos] > money) {
-            System.out.println("\n#### Wager is too high. ####");
+            System.out.println("\n#### You don't have" + PrintMoney.printMoney(wager * 10000) 
+                + " left to wager! ####");
             return;
         }
         money -= wager - wagers[pos];
