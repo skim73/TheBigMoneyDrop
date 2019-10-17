@@ -26,9 +26,10 @@ class MainGame extends Thread {
             "\ndivided into 50 bundles each worth $10,000." +
             "\nThe goal of the game is to maintain all that money by answering 7 question correctly.");
         proceed(in);
-        System.out.println("\nYou answer question by wagering ALL your money on the answer choices." +
-            "\nAny money wagered on the incorrect answers will drop to the abyss, never to return." +
-            "\nIn every question, YOU MUST LEAVE ONE ANSWER WAGERED $0.");
+        System.out.println("\nYou answer questions by wagering amounts of your money on the answer choices." +
+            "\nYou can wager all your money on 1 answer choice or split it across multiple answer choices," +
+            "\nbut in every question, YOU MUST LEAVE ONE ANSWER WAGERED $0." +
+            "\nAny money wagered on the incorrect answers will drop to the abyss, never to return.");
         proceed(in);
         System.out.println("\nAre you ready? Then let's play the Big Money Drop!");
         proceed(in);
