@@ -10,7 +10,7 @@ B 0 C 0 D 1600
 (B) New York    [
 (C) Utah        [
 (D) Wisconsin   [
-According to the 2010 census, whose capital is not the most populous city in the state?
+According to the 2010 census, the capital of which state is not its most populous city?
 D 1000 A 1000 C 1600
 MARRIAGE
 ZODIAC
