@@ -38,7 +38,7 @@ D 1000 A 1000 C 1600
 (B) 233 Canadian Dollars    [
 (C) 199 British Pounds      [
 (D) 64,000 South Korean Won [
-As of October 2019, which is more expensive?
+As of September 30, 2019, which is more expensive?
 A 0 B 2400 D 1600
 GLOBAL EVENTS
 COLORS
