@@ -94,11 +94,11 @@ class Wagering extends Thread {
 
     private void checkWager(int wager, int pos) {
         if (wager < 0) {
-            System.out.println("\n#### Invalid wager! ####");
+            System.out.println("\n\n\n#### Invalid wager! ####");
             return;
         }
         if (wager - wagers[pos] > money) {
-            System.out.println("\n#### You don't have " + PrintMoney.printMoney(wager * 10000) 
+            System.out.println("\n\n\n#### You don't have " + PrintMoney.printMoney(wager * 10000) 
                 + " left to wager! ####");
             return;
         }
@@ -108,7 +108,7 @@ class Wagering extends Thread {
         Arrays.sort(sorted);
         if (Arrays.binarySearch(sorted, 0) == -1) {
             wagers[pos] -= wager;
-            System.out.println("\n#### YOU MUST LEAVE ONE ANSWER WAGERED $0! ####");
+            System.out.println("\n\n\n#### YOU MUST LEAVE ONE ANSWER WAGERED $0! ####");
             money += wager;
         }
     }
