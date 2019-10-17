@@ -57,7 +57,7 @@ class MainGame extends Thread {
             } catch (InputMismatchException e) {
                 c = 2;
             }
-            if (c == 1) {
+            if (c <= 1) {
                 System.out.println("\nYou chose " + category1);
             } else {
                 System.out.println("\nYou chose " + category2);
