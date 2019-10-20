@@ -35,7 +35,7 @@ class Wagering extends Thread {
         System.out.println("\nOn which answer will you wager? A, B, C, or D?" +
             "\n Enter \"S\" to stop the clock when wagered all your money.");
         try {
-            switch (in.next()) {
+            switch (in.next().toUpperCase()) {
                 case "A":
                     System.out.print("Set your new wager on (A): $10,000 X ");
                     try {
