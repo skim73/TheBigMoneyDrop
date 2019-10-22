@@ -19,7 +19,8 @@ class Countdown extends Thread {
                 } else if (t == 10) {
                     System.out.println("\n**** " + t + " SECONDS LEFT. WAGER ALL YOUR MONEY NOW! ****");
                 } else if (t == 0) {
-                    System.out.println("\n------ TIME! ------ \n[Enter \"T\" to continue.]");
+                    System.out.println("\n------ TIME! ------ \n[Enter \"T\" to continue, or finish your wager" +
+                        "if you were in the middle of wagering.]");
                     thread.interrupt();
                     cancel();
                 }
@@ -34,6 +35,7 @@ class Countdown extends Thread {
         try {
             thread.join();
         } catch (InterruptedException e) {
+            e.printStackTrace();
         }
         countdown.cancel();
         interrupt();
