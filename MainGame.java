@@ -7,7 +7,7 @@ class MainGame extends Thread {
         Random qnaPack = new Random();
         Scanner qna = null;
         try {
-            qna = new Scanner(new File("QnA" + qnaPack.nextInt(1) + ".txt"));
+            qna = new Scanner(new File("QnA" + qnaPack.nextInt(2) + ".txt"));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
@@ -77,8 +77,8 @@ class MainGame extends Thread {
 
             System.out.println("\nThe question is this:");
             String question = qna.nextLine();
-            if (question.length() > 120) {
-                question = question.substring(0, 120) + "\n" + question.substring(120);
+            if (question.length() > 112) {
+                question = question.substring(0, 112) + "\n" + question.substring(112);
             }
             delay(2000);
             System.out.println(question);
@@ -87,15 +87,15 @@ class MainGame extends Thread {
             int[] wagers = new int[numAnswers(questionNum)];
             Wagering wagering = new Wagering(money, answers, question, wagers, in);
             Countdown countdown = new Countdown(wagering);
-            System.out.println("\nYou have 1 minute to wager ALL your money on the answers as soon" +
-                " as you proceed.\n\t(***Any money not wagered will be confiscated***)");
+            System.out.println("\nYou have 1 minute to wager your money on the answers as soon" +
+                " as you proceed.\n(***Any money not wagered will be confiscated***)");
             delay(5000);
 
             countdown.start();
             try {
                 countdown.join();
             } catch (InterruptedException e) {
-
+                e.printStackTrace();
             }
 
 
@@ -148,7 +148,7 @@ class MainGame extends Thread {
         try {
             scanner.nextInt();
         } catch (InputMismatchException e) {
-
+            e.printStackTrace();
         }
         scanner.nextLine();
     }
@@ -167,7 +167,7 @@ class MainGame extends Thread {
         try {
             Thread.sleep(s);
         } catch (Exception e) {
-
+            e.printStackTrace();
         }
     }
 
