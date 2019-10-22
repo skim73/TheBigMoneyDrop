@@ -41,7 +41,7 @@ class Wagering extends Thread {
                     try {
                         checkWager(in.nextInt(), 0);
                     } catch (InputMismatchException e) {
-
+                        e.printStackTrace();
                     }
                     break;
                 case "B":
@@ -49,7 +49,7 @@ class Wagering extends Thread {
                     try {
                         checkWager(in.nextInt(), 1);
                     } catch (InputMismatchException e) {
-
+                        e.printStackTrace();
                     }
                     break;
                 case "C":
@@ -58,7 +58,7 @@ class Wagering extends Thread {
                         try {
                             checkWager(in.nextInt(), 2);
                         } catch (InputMismatchException e) {
-
+                            e.printStackTrace();
                         }
                     }
                     break;
@@ -68,7 +68,7 @@ class Wagering extends Thread {
                         try {
                             checkWager(in.nextInt(), 3);
                         } catch (InputMismatchException e) {
-
+                            e.printStackTrace();
                         }
                     }
                     break;
@@ -98,7 +98,7 @@ class Wagering extends Thread {
             return;
         }
         if (wager - wagers[pos] > money) {
-            System.out.println("\n\n\n#### You don't have " + PrintMoney.printMoney(wager * 10000) 
+            System.out.println("\n\n\n#### You don't have " + PrintMoney.printMoney(wager * 10000)
                 + " left to wager! ####");
             return;
         }
