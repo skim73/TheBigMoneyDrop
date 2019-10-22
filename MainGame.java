@@ -148,7 +148,7 @@ class MainGame extends Thread {
         try {
             scanner.nextInt();
         } catch (InputMismatchException e) {
-            e.printStackTrace();
+
         }
         scanner.nextLine();
     }
